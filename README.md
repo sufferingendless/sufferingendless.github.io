@@ -1,7 +1,7 @@
 # Maced-nia
 
 ## Sobre:
-O projeto consiste em uma página de distribuição de livros de ficção autorais através do github.
+O projeto consiste em uma página de distribuição de livros de ficção autorais com github.
 
 ## Dos direitos autorais:
  - Todas as obras públicas aqui estão protegidas pelas leis de direitos autorais do Brasil e qualquer uso indefido acarretarão nas respectivas ações judiciárias como previstas nas lei **LEI Nº 9.610, DE 19 DE FEVEREIRO DE 1998.**.

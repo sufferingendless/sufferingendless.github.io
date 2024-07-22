@@ -2,10 +2,13 @@
   font-family: 'as-kee-r0';
   src: url('./resources/as-kee-r0.ttf');
 }
-body {
+html, body {
 	background-color: black;
 	color: white;
 	margin: 0;
+	padding: 0;
+	height:100%;
+    width:100%;
 	font-family: "Hanken Grotesk", sans-serif;
 }
 marquee{
@@ -18,9 +21,6 @@ marquee{
 	width: 100%;
 	padding-bottom: 0.75em;
 	animation: marquee 10s linear infinite;
-}
-section {
-	padding-bottom: 5em;
 }
  a:link {
       text-decoration: none;
@@ -47,6 +47,7 @@ a:active {
      top: 0;
 	 padding-bottom: 0.75em;
      width: 100%;
+	 z-index: 1000;
  }
 
 .logo{
@@ -63,13 +64,20 @@ a:active {
 	font-family: 'as-kee-r0';
 	padding: 0.25em 0 0.25em 0;
 }
+.splash{
+	display: block;
+	height: 100%;
+	padding-bottom: 4em;
+}
 .splash-img{
+	padding-top: 0;
 	max-width: 100%;
 	max-height: auto;
+	transform: translateY(-250px); /* Adjust the value as needed */
+	display: block;
 }
 .text {
 	font-size: 25px;
-	padding-left: 15%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -86,4 +94,28 @@ a:active {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.tile{
+	height:100%;
+    width:100%;
+}
+.about{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	justify-content: space-around;
+}
+.sea-dragons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.text-link {
+	font-style: italic;
+}
+.text-link:hover{
+	text-decoration: underline;
 }
