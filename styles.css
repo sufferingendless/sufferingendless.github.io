@@ -1,121 +1,153 @@
 @font-face {
-  font-family: 'as-kee-r0';
-  src: url('./resources/as-kee-r0.ttf');
+  font-family: "as-kee-r0";
+  src: url("./resources/as-kee-r0.ttf");
 }
-html, body {
-	background-color: black;
-	color: white;
-	margin: 0;
-	padding: 0;
-	height:100%;
-    width:100%;
-	font-family: "Hanken Grotesk", sans-serif;
+html,
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Hanken Grotesk", sans-serif;
 }
-marquee{
-	padding: 0.5em 0 0 0;
-	height:1em;
-	position: fixed;
-	bottom: 0;
-	background-color: white;
-	color: black;
-	width: 100%;
-	padding-bottom: 0.75em;
-	animation: marquee 10s linear infinite;
+marquee {
+  padding: 0.5vw 0 0.5vw 0;
+  height: 1vw;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  color: black;
+  width: 100%;
+  animation: marquee 10s linear infinite;
 }
- a:link {
-      text-decoration: none;
+a {
+  text-decoration: none;
+  color: white;
+}
+a:link {
+  text-decoration: none;
 }
 
 a:visited {
-      text-decoration: none;
-	  color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-      text-decoration: none;
+  text-decoration: none;
 }
 
 a:active {
-      text-decoration: none;
+  text-decoration: none;
 }
 .nav-bar {
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
-	 background-color: black;
-     position: fixed;
-     top: 0;
-	 padding-bottom: 0.75em;
-     width: 100%;
-	 z-index: 1000;
- }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  padding-bottom: 0.75vw;
+  padding-right: 0.75vw;
+  width: 100%;
+  z-index: 1000;
+}
 
-.logo{
-	 padding: 1em 1em 0 0;
- }
+.logo {
+  padding: 1vw 1vw 0 0;
+}
 .nav-element {
-	 padding: 1em 1em 0 0;
+  padding: 1vw 1vw 0 0;
 }
 .nav-element:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
-.section-title{
-	font-size: 15em;
-	font-family: 'as-kee-r0';
-	padding: 0.25em 0 0.25em 0;
+.section-title {
+  font-size: 10vw;
+  font-family: "as-kee-r0";
+  padding: 5vw 0 0.25vw 0;
 }
-.splash{
-	display: block;
-	height: 100%;
-	padding-bottom: 4em;
+.splash {
+  display: block;
+  height: 100%;
+  padding-bottom: 4vw;
 }
-.splash-img{
-	padding-top: 0;
-	max-width: 100%;
-	max-height: auto;
-	transform: translateY(-250px); /* Adjust the value as needed */
-	display: block;
+.splash-img {
+  padding-top: 0;
+  max-width: 100%;
+  max-height: auto;
+  transform: translateY(-250px);
+  display: block;
 }
 .text {
-	font-size: 25px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 50%;
-	text-align: justify;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  text-align: justify;
 }
 .contact {
-	padding: 2em 0 0 0;
-	font-size: 20px;
-	font-style: italic;
-	padding-left: 10%;
+  padding: 2vw 0 0 0;
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 10%;
 }
 .donations {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.tile{
-	height:100%;
-    width:100%;
+.tile {
+  height: 100%;
+  width: 100%;
 }
-.about{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	background-repeat: no-repeat;
-	justify-content: space-around;
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  justify-content: space-around;
 }
 .sea-dragons {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .text-link {
-	font-style: italic;
+  font-style: italic;
 }
-.text-link:hover{
-	text-decoration: underline;
+.text-link:hover {
+  text-decoration: underline;
+}
+.destroyer-of-worlds {
+}
+@media only screen and (max-width: 768px) {
+  .splash-img {
+    object-fit: contain;
+  }
+  .section-title {
+    font-size: 1px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .splash-img {
+    transform: translateY(-650px);
+  }
+  .section-title {
+    padding: 2vw 0 0.25vw 0;
+    font-size: 7vw;
+  }
+  .sea-dragons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+  }
 }
