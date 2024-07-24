@@ -53,6 +53,7 @@ a:active {
   padding-right: 0.75vw;
   width: 100%;
   z-index: 1000;
+  font-size: 0.75vw;
 }
 
 .logo {
@@ -74,14 +75,11 @@ a:active {
 .splash {
   display: block;
   height: 100%;
+  background-image: url("./resources/burning-house.jpg");
+  background-position-y: -250px;
+  background-repeat: no-repeat;
+  background-size: 100%;
   padding-bottom: 4vw;
-}
-.splash-img {
-  padding-top: 0;
-  max-width: 100%;
-  max-height: auto;
-  transform: translateY(-250px);
-  display: block;
 }
 .text {
   font-size: 25px;
@@ -111,7 +109,6 @@ a:active {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-repeat: no-repeat;
   justify-content: space-around;
 }
 .sea-dragons {
@@ -158,8 +155,8 @@ a:active {
 }
 
 @media only screen and (min-width: 2000px) {
-  .splash-img {
-    transform: translateY(-650px);
+  .splash {
+    background-position-y: -650px;
   }
   .section-title {
     padding: 2vw 0 0.25vw 0;
