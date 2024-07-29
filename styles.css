@@ -21,6 +21,7 @@ marquee {
   color: black;
   width: 100%;
   animation: marquee 10s linear infinite;
+  z-index: 1000;
 }
 a {
   text-decoration: none;
@@ -144,6 +145,36 @@ a:active {
 }
 .text-link:hover {
   text-decoration: underline;
+}
+.donations-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donations-text {
+  padding-top: 3vw;
+  text-align: center;
+  padding-bottom: 3vw;
+}
+.text-contact {
+  padding-bottom: 5vw;
+  font-size: 1vw;
+}
+.suffering {
+  position: relative;
+  text-align: center;
+}
+.sofrimento {
+  position: absolute;
+  color: yellow;
+  font-size: 10vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.destroyer {
+  z-index: 998;
 }
 @media only screen and (max-width: 768px) {
   .splash-img {
