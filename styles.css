@@ -150,6 +150,7 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 1vw;
 }
 .donations-text {
   padding-top: 3vw;
@@ -181,15 +182,6 @@ a:active {
 .destroyer {
   z-index: 998;
 }
-@media only screen and (max-width: 768px) {
-  .splash-img {
-    object-fit: contain;
-  }
-  .section-title {
-    font-size: 1px;
-  }
-}
-
 @media only screen and (min-width: 2000px) {
   .splash {
     background-position-y: -650px;
@@ -204,5 +196,11 @@ a:active {
     align-items: center;
     flex-direction: column;
     width: 25%;
+  }
+  .book-link {
+    font-size: 3vw;
+  }
+  .donations-title {
+    padding-top: 3.5vw;
   }
 }
