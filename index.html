@@ -15,18 +15,29 @@
   </head>
 
   <body>
-    <div class="nav-bar">
+    <div class="nav-bar hide-on-mobile">
       <a href="#home"><div class="logo">MACED-NIA</div></a>
       <a href="#about"><div class="nav-element">Sobre</div></a>
       <a href="#projects"><div class="nav-element">Projetos</div></a>
       <a href="#donations"><div class="nav-element">Colabore</div></a>
     </div>
-    <div id="home" class="splash"></div>
+    <div id="home" class="splash hide-on-mobile">
+      <img class="burning-house" src="../resources/burning-house.jpg" />
+    </div>
+    <div id="home" class="mobile front-banner">
+      <img class="burning-house" src="../resources/burning-house.jpg" />
+      <div class="circular-nav">
+		  <a href="#about"<li>Sobre ></li></a>
+		  <a href="#projects"<li>Projetos ></li></a>
+		  <a href="donations"<li>Colabore ></li></a>
+      </div>
+      <div class="title">MACED-NIA</div>
+    </div>
     <div class="tile">
       <a id="about">
         <div class="section-title">Sobre</div>
       </a>
-      <div class="about">
+      <div class="about hide-on-mobile">
         <div class="text sea-dragons">
           <p>
             MACED-NIA é um projeto de curadoria, distribuição e proteção da
@@ -45,11 +56,60 @@
         </div>
         <img src="resources/cropped_sea_dragons.jpg" />
       </div>
+      <div class="about-mobile mobile">
+        <div class="mobile nav-mobile">
+          <a href="#home"><div class="logo">MACED-NIA</div></a>
+          <a href="#about"
+            ><div class="nav-mobile-element highlight">Sobre ></div></a
+          >
+          <a href="#projects"
+            ><div class="nav-mobile-element">Projetos ></div></a
+          >
+          <a href="#donations"
+            ><div class="nav-mobile-element">Colabore ></div></a
+          >
+        </div>
+        <div class="about-mobile-text mobile">
+          <p>
+            MACED-NIA é um projeto de curadoria, distribuição e proteção da
+            literatura independente brasileira. Os fundos e doações direcionadas
+            para os livros serão repassados integralmente para os autores. Todos
+            os direitos autorais pertencem aos respectivos autores, atualmente
+            MACED-NIA conta com um autor. Qualquer violação de direito autoral
+            contra os nossos autores respondera em juízo.
+          </p>
+        </div>
+        <img
+          class="cropped-sea-dragons-mobile"
+          src="resources/cropped_sea_dragons.jpg"
+        />
+		<div class="copyright">
+          <a
+            href="https://github.com/sufferingendless/sufferingendless.github.io/blob/main/README.md"
+            target="_blank"
+          >
+            <p class="text-link">Saiba mais sobre os direitos autorais ></p>
+          </a>
+		</div>
+        <img
+				class="orchid"
+          src="resources/andrey-grinkevich-GeazrTcSseE-unsplash(1).jpg"
+        />
+      </div>
     </div>
+      <a id="projects"></a>
+      <div class="mobile nav-mobile">
+        <a href="#home"><div class="logo">MACED-NIA</div></a>
+        <a href="#about"><div class="nav-mobile-element">Sobre ></div></a>
+        <a href="#projects"
+          ><div class="nav-mobile-element highlight">Projetos ></div></a
+        >
+        <a href="#donations"
+          ><div class="nav-mobile-element">Colabore ></div></a
+        >
+      </div>
     <div class="book-tile">
-      <a id="projects">
         <div class="section-title book-section">Projetos</div>
-      </a>
       <div class="book">
         <div class="book-title">LEGADO</div>
         <div class="book-cta">
@@ -59,10 +119,19 @@
         </div>
       </div>
     </div>
+      <a id="donations"></a>
+      <div class="mobile nav-mobile">
+        <a href="#home"><div class="logo">MACED-NIA</div></a>
+        <a href="#about"><div class="nav-mobile-element">Sobre ></div></a>
+        <a href="#projects"
+          ><div class="nav-mobile-element">Projetos ></div></a
+        >
+        <a href="#donations"
+          ><div class="nav-mobile-element highlight">Colabore ></div></a
+        >
+      </div>
     <div class="tile donations-tile">
-      <a id="donations">
-        <div class="section-title donations-title">Colabore</div>
-      </a>
+        <div class="section-title donations-title hide-on-mobile">Colabore</div>
       <div class="text donations-text">
         O projeto MACED-NIA é independente e assim continuára. Recomendamos que
         as doações sejam feitas diretamete através das páginas dos livros, porém
@@ -91,7 +160,7 @@
       </div>
     </div>
     <div class="footer">
-      <marquee direction="left" scrollamount="2">
+      <marquee class="hide-on-mobile" direction="left" scrollamount="2">
         <span class="marquee-text">
           Autores e interessados contatem: sufferingendles@gmail.com - o mundo é
           um mar de sangue - Autores e interessados contatem:
