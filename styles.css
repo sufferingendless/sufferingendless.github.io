@@ -159,7 +159,6 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1vw;
 }
 .donations-text {
   padding-top: 3vw;
@@ -196,7 +195,7 @@ a:active {
     background-position-y: -650px;
   }
   .section-title {
-    padding: 2vw 0 0.25vw 0;
+    padding: 3vw 0 0.25vw 0;
     font-size: 7vw;
   }
   .sea-dragons {
@@ -208,6 +207,9 @@ a:active {
   }
   .book-link {
     font-size: 3vw;
+  }
+  .nav-bar {
+    font-size: 0.75vw;
   }
 }
 
