@@ -29,7 +29,9 @@ a:active {
 .no-scroll {
   overflow: hidden;
 }
-
+.mobile {
+  display: none;
+}
 .john-martin {
   position: relative;
   text-align: center;
@@ -123,7 +125,6 @@ details summary {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Modal Content/Box */
 .modal-content {
   margin: 15% auto;
   background-color: #000;
@@ -163,5 +164,68 @@ details summary {
   }
   to {
     transform: translateY(0%);
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .modal-content {
+    margin: 5% auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .john-martin {
+    display: none;
+  }
+  .wrapper {
+    background-image: url("resources/john_martin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .accordion-grid {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vw;
+  }
+  .accordion-text {
+    text-align: justify;
+    font-size: 3vw;
+  }
+  .accordion-element {
+    width: 75%;
+  }
+  details summary {
+    font-size: 3.5vw;
+  }
+  .book-title {
+    font-size: 7vw;
+  }
+  .subtext {
+    font-size: 3.5vw;
+  }
+  .button {
+    font-size: 5vw;
+  }
+
+  .nav {
+    font-size: 5vw;
+  }
+  .modal-title {
+    font-size: 3vw;
+  }
+  .close {
+    font-size: 3vw;
+  }
+
+  .modal-list li {
+    font-size: 2.5vw;
+  }
+  .modal-content {
+    padding: 5px;
   }
 }
