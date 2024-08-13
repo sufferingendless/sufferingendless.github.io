@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Maced-nia</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="css/pico.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,43 +12,81 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
     <div class="wrapper">
-      <img class="john-martin" src="resources/john_martin.jpg" />
-      <a href="../index.html#projects"><div class="nav">X</div></a>
+      <img
+        class="john-martin"
+        src="resources/john_martin.jpg"
+        alt="John Martin"
+      />
+      <a href="../index.html#projects">
+        <div class="nav">X</div>
+      </a>
       <div class="text-wrapper">
         <div class="book-header">
           <div class="book-title">LEGADO</div>
-          <div class="subtext">Você consgue imaginar uma vida humana?</div>
+          <div class="subtext">Você consegue imaginar uma vida humana?</div>
         </div>
-        <details open>
-			<summary>Sinópse</summary>
-          <p> 
-			<hr>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-        </details>
-        <details open>
-			<summary>Citação selecionada</summary>
-          <p> 
-			<hr>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-        </details>
+        <div class="accordion-grid">
+          <div class="accordion-element">
+            <details open>
+              <summary>Sinopse</summary>
+              <p class="accordion-text">
+                "Um ser invisível, na tentativa de concluir sua obra, parte em
+                busca da essência natural da violência e se depara com uma
+                cadeia complexa de eventos que botarão à prova sua concepção de
+                mundo."
+              </p>
+            </details>
+          </div>
+          <div class="accordion-element">
+            <details open>
+              <summary>Citação selecionada</summary>
+              <p class="accordion-text">
+                "Nessa versão do mito, a chuva nunca parou, Noé e todos seus
+                amigos felpudos ficaram lá para sempre até esquecerem do cheiro
+                da terra. Nessa versão, enquanto os animais dentro da arca
+                começaram a comer uns aos outros pela falta de comida, os peixes
+                cresceram cada vez mais, aumentando a biomassa em cada nível
+                trófico dos mares, os predadores cresceram, e finalmente, depois
+                de gerações de seleção natural, a besta de sete cabeças ficou
+                grande o suficiente para devorar a arca. Mais algumas horas
+                passam até os dois seres dormirem abraçados no chão."
+              </p>
+            </details>
+          </div>
+        </div>
+        <hr />
+        <div id="downloadModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button onclick="closeModal()" class="close">X</button>
+              <p class="modal-title">Distribuição do livro LEGADO</p>
+            </div>
+            <hr />
+            <ul class="modal-list">
+              <li>
+                O livro segue um ideal de distribuição sugerida, onde o preço é
+                definido pelo leitor, caso você queira contribuir com alguma
+                quantia, acesse o link abaixo.
+              </li>
+              <li>
+                Apesar do modelo de distribuição sugerida, o livro é registrado
+                na Comissão Brasileira do Livro e qualquer uso indevido como:
+                revenda, impressão não autorizada, modificação não autorizada e
+                qualquer violação de direitos autorais, responderá em juízo.
+              </li>
+            </ul>
+            <div class="colab-cta">
+              <a href="#" class="button">Colabore ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <a href="#" class="button" onclick="openModal()">Baixe o livro ></a>
+        </div>
+      </div>
+      <script src="../src/script.js"></script>
     </div>
-    <script src="./src/script.js"></script>
   </body>
 </html>

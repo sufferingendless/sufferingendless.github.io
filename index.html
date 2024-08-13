@@ -20,22 +20,32 @@
       <a href="#projects"><div class="nav-element">Projetos</div></a>
       <a href="#donations"><div class="nav-element">Colabore</div></a>
     </div>
+
     <div id="home" class="splash hide-on-mobile">
-      <img class="burning-house" src="../resources/burning-house.jpg" />
+      <img
+        class="burning-house"
+        src="../resources/burning-house.jpg"
+        alt="Burning House"
+      />
     </div>
+
     <div id="home" class="mobile front-banner">
-      <img class="burning-house" src="../resources/burning-house.jpg" />
+      <img
+        class="burning-house"
+        src="../resources/burning-house.jpg"
+        alt="Burning House"
+      />
       <div class="circular-nav">
-		  <a href="#about"<li>Sobre ></li></a>
-		  <a href="#projects"<li>Projetos ></li></a>
-		  <a href="#donations"<li>Colabore ></li></a>
+        <a href="#about"><li>Sobre ></li></a>
+        <a href="#projects"><li>Projetos ></li></a>
+        <a href="#donations"><li>Colabore ></li></a>
       </div>
       <div class="title">MACED-NIA</div>
     </div>
-    <div class="tile">
-      <a id="about">
-        <div class="section-title">Sobre</div>
-      </a>
+
+    <div class="tile-about">
+      <a id="about"></a>
+      <div class="section-title">Sobre</div>
       <div class="about hide-on-mobile">
         <div class="text sea-dragons">
           <p>
@@ -44,7 +54,7 @@
             para os livros serão repassados integralmente para os autores. Todos
             os direitos autorais pertencem aos respectivos autores, atualmente
             MACED-NIA conta com um autor. Qualquer violação de direito autoral
-            contra os nossos autores respondera em juízo.
+            contra os nossos autores responderá em juízo.
           </p>
           <a
             href="https://github.com/sufferingendless/sufferingendless.github.io/blob/main/README.md"
@@ -53,7 +63,11 @@
             <p class="text-link">Saiba mais sobre os direitos autorais ></p>
           </a>
         </div>
-        <img src="resources/cropped_sea_dragons.jpg" />
+        <img
+          class="sea-dragons-img"
+          src="resources/cropped_sea_dragons.jpg"
+          alt="Sea Dragons"
+        />
       </div>
       <div class="about-mobile mobile">
         <div class="mobile nav-mobile">
@@ -75,67 +89,72 @@
             para os livros serão repassados integralmente para os autores. Todos
             os direitos autorais pertencem aos respectivos autores, atualmente
             MACED-NIA conta com um autor. Qualquer violação de direito autoral
-            contra os nossos autores respondera em juízo.
+            contra os nossos autores responderá em juízo.
           </p>
         </div>
         <img
           class="cropped-sea-dragons-mobile"
           src="resources/cropped_sea_dragons.jpg"
+          alt="Sea Dragons"
         />
-		<div class="copyright">
+        <div class="copyright">
           <a
             href="https://github.com/sufferingendless/sufferingendless.github.io/blob/main/README.md"
             target="_blank"
           >
             <p class="text-link">Saiba mais sobre os direitos autorais ></p>
           </a>
-		</div>
+        </div>
         <img
-				class="orchid"
+          class="orchid"
           src="resources/andrey-grinkevich-GeazrTcSseE-unsplash(1).jpg"
+          alt="Orchid"
         />
       </div>
     </div>
-      <a id="projects"></a>
-      <div class="mobile nav-mobile">
-        <a href="#home"><div class="logo">MACED-NIA</div></a>
-        <a href="#about"><div class="nav-mobile-element">Sobre ></div></a>
-        <a href="#projects"
-          ><div class="nav-mobile-element highlight">Projetos ></div></a
-        >
-        <a href="#donations"
-          ><div class="nav-mobile-element">Colabore ></div></a
-        >
-      </div>
+
+    <a id="projects"></a>
+    <div class="mobile nav-mobile">
+      <a href="#home"><div class="logo">MACED-NIA</div></a>
+      <a href="#about"><div class="nav-mobile-element">Sobre ></div></a>
+      <a href="#projects"
+        ><div class="nav-mobile-element highlight">Projetos ></div></a
+      >
+      <a href="#donations"><div class="nav-mobile-element">Colabore ></div></a>
+    </div>
+
     <div class="book-tile">
-        <div class="section-title book-section">Projetos</div>
+      <div class="section-title book-section">Projetos</div>
       <div class="book">
         <div class="book-title">LEGADO</div>
         <div class="book-cta">
-			<a id="bookPage" href= "books/legado.html"><p class="book-link text-link">Acesse o livro ></p></a>
-          <p class="book-link text-link">Baixe o livro ></p>
-          <p class="book-link text-link">Apoie o livro ></p>
+          <a class="book-external" href="books/legado.html"
+            ><p class="book-link text-link">Acesse o livro ></p></a
+          >
+          <a class="book-external" onclick="openModal()"
+            ><p class="book-link text-link">Baixe o livro ></p></a
+          >
         </div>
       </div>
     </div>
-      <a id="donations"></a>
-      <div class="mobile nav-mobile">
-        <a href="#home"><div class="logo">MACED-NIA</div></a>
-        <a href="#about"><div class="nav-mobile-element">Sobre ></div></a>
-        <a href="#projects"
-          ><div class="nav-mobile-element">Projetos ></div></a
-        >
-        <a href="#donations"
-          ><div class="nav-mobile-element highlight">Colabore ></div></a
-        >
-      </div>
+
+    <a id="donations"></a>
+    <div class="mobile nav-mobile">
+      <a href="#home"><div class="logo">MACED-NIA</div></a>
+      <a href="#about"><div class="nav-mobile-element">Sobre ></div></a>
+      <a href="#projects"><div class="nav-mobile-element">Projetos ></div></a>
+      <a href="#donations"
+        ><div class="nav-mobile-element highlight">Colabore ></div></a
+      >
+    </div>
+
     <div class="tile donations-tile">
-        <div class="section-title donations-title hide-on-mobile">Colabore</div>
+      <div class="section-title donations-title hide-on-mobile">Colabore</div>
       <div class="text donations-text">
-        O projeto MACED-NIA é independente e assim continuára. Recomendamos que
-        as doações sejam feitas diretamete através das páginas dos livros, porém
-        aceitamos doações em nome do projeto que serão distribuidas entre os
-        autores. Doando você ajuda a alimentar meliantes como esse da foto
+        O projeto MACED-NIA é independente e assim continuará. Recomendamos que
+        as doações sejam feitas diretamente através das páginas dos livros,
+        porém aceitamos doações em nome do projeto que serão distribuídas entre
+        os autores. Doando você ajuda a alimentar meliantes como esse da foto
         abaixo.
       </div>
       <div class="donations-cta">
@@ -147,12 +166,13 @@
           width="100%"
           class="destroyer"
           src="resources/destroyer-of-worlds.jpeg"
+          alt="Destroyer of Worlds"
         />
-		<a href="">
-        <div class="sofrimento">
-          COLABORE COLABORE COLABORE COLABORE COLABORE
-        </div>
-		</a>
+        <a href="#">
+          <div class="sofrimento">
+            COLABORE COLABORE COLABORE COLABORE COLABORE
+          </div>
+        </a>
       </div>
       <div id="contact" class="text text-contact">
         Autores, diretores de filmes e mecenas contatem:
@@ -160,6 +180,7 @@
         Reclamações: faleconosco@ambev.com.br - 0800 725 001
       </div>
     </div>
+
     <div class="footer">
       <marquee class="hide-on-mobile" direction="left" scrollamount="2">
         <span class="marquee-text">
@@ -169,6 +190,33 @@
         </span>
       </marquee>
     </div>
+
+    <div id="downloadModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button onclick="closeModal()" class="close">X</button>
+          <p class="modal-title">Distribuição do livro LEGADO</p>
+        </div>
+        <hr />
+        <ul class="modal-list">
+          <li>
+            O livro segue um ideal de distribuição sugerida, onde o preço é
+            definido pelo leitor, caso você queira contribuir com alguma
+            quantia, acesse o link abaixo.
+          </li>
+          <li>
+            Apesar do modelo de distribuição sugerida, o livro é registrado na
+            Comissão Brasileira do Livro e qualquer uso indevido como: revenda,
+            impressão não autorizada, modificação não autorizada e qualquer
+            violação de direitos autorais, responderá em juízo.
+          </li>
+        </ul>
+        <div class="colab-cta">
+          <a href="#" class="button">Colabore ></a>
+        </div>
+      </div>
+    </div>
+
     <script src="./src/script.js"></script>
   </body>
 </html>
