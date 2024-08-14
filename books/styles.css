@@ -71,7 +71,8 @@ a:active {
 }
 .accordion-grid {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   margin-top: 3vw;
 }
 .accordion-element {
@@ -95,6 +96,7 @@ details summary {
   bottom: 3%;
   margin-left: 3vw;
   margin-right: 3vw;
+  width: 100%;
 }
 .button {
   background: none;
@@ -190,11 +192,11 @@ details summary {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 3vw;
+    margin-top: 5vw;
   }
   .accordion-text {
     text-align: justify;
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .accordion-element {
     width: 75%;
@@ -221,15 +223,21 @@ details summary {
   .close {
     font-size: 3vw;
   }
+  ul {
+    padding-left: 0;
+  }
 
   .modal-list li {
-    font-size: 2vw;
+    list-style: none;
+    font-size: 3vw;
+    text-align: center;
   }
   .modal-content {
     padding: 5px;
+    width: 75%;
   }
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
   .john-martin {
     display: none;
   }
@@ -266,6 +274,9 @@ details summary {
     font-size: 2vw;
   }
   .button {
+    font-size: 2vw;
+  }
+  .modal-list li {
     font-size: 2vw;
   }
 

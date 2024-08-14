@@ -385,6 +385,7 @@ a:active {
     background-repeat: repeat;
   }
   .book-link {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     color: white;
@@ -426,17 +427,20 @@ a:active {
   .close {
     font-size: 3vw;
   }
+  ul {
+    padding-left: 0;
+  }
 
   .modal-list li {
-    font-size: 2vw;
-    text-align: start;
+    list-style: none;
+    font-size: 3vw;
+    text-align: center;
   }
   .modal-content {
     padding: 5px;
+    width: 75%;
   }
-  .text-contact {
+  .button {
     font-size: 3vw;
-    flex-direction: column;
-    justify-content: center;
   }
 }
