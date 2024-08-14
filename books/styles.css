@@ -229,3 +229,53 @@ details summary {
     padding: 5px;
   }
 }
+@media only screen and (max-width: 1500px) {
+  .john-martin {
+    display: none;
+  }
+  .wrapper {
+    background-image: url("resources/john_martin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .accordion-grid {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vw;
+  }
+  .accordion-text {
+    text-align: justify;
+    font-size: 1.5vw;
+  }
+  .accordion-element {
+    width: 75%;
+  }
+  details summary {
+    font-size: 3.5vw;
+  }
+  .book-title {
+    font-size: 5vw;
+  }
+  .subtext {
+    font-size: 2vw;
+  }
+  .button {
+    font-size: 2vw;
+  }
+
+  .nav {
+    font-size: 5vw;
+  }
+  .modal-title {
+    font-size: 3vw;
+  }
+  .close {
+    font-size: 3vw;
+  }
+}
