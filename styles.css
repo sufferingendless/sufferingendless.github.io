@@ -111,16 +111,14 @@ a:active {
   justify-content: center;
   width: 50%;
 }
-.contact {
-  padding: 2vw 0 0 0;
-  font-size: 20px;
-  font-style: italic;
-  padding-left: 10%;
-}
 .donations {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.gambi {
+  display: flex;
+  flex-direction: column;
 }
 .tile {
   height: 100%;
@@ -138,6 +136,7 @@ a:active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 .book-tile {
   width: 100%;
@@ -181,10 +180,6 @@ a:active {
   font-size: 1.5vw;
   justify-content: space-around;
   width: 25%;
-}
-.text-contact {
-  padding-bottom: 5vw;
-  font-size: 1vw;
 }
 .suffering {
   position: relative;
@@ -264,6 +259,16 @@ a:active {
   justify-content: center;
   align-items: center;
   margin: 1vw;
+}
+.text-contact {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 5vw;
+  justify-content: space-around;
+  padding-bottom: 5vw;
+  align-items: center;
+  font-size: 1vw;
 }
 @media only screen and (min-width: 2000px) {
   .splash {
@@ -413,5 +418,25 @@ a:active {
   .book {
     justify-content: center;
     flex-direction: column;
+  }
+
+  .modal-title {
+    font-size: 3vw;
+  }
+  .close {
+    font-size: 3vw;
+  }
+
+  .modal-list li {
+    font-size: 2vw;
+    text-align: start;
+  }
+  .modal-content {
+    padding: 5px;
+  }
+  .text-contact {
+    font-size: 3vw;
+    flex-direction: column;
+    justify-content: center;
   }
 }
