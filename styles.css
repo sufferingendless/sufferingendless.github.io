@@ -22,9 +22,11 @@ body {
 .book-external:hover {
   cursor: pointer;
   color: red;
+  text-decoration: underline solid red 5px;
 }
 .book-external {
   color: red;
+  font-style: italic;
 }
 .book-external:visited {
   color: red;
@@ -394,6 +396,9 @@ a:active {
     color: white;
     background-color: rgba(255, 0, 0, 0.4);
     font-size: 14vw;
+  }
+  .book-link:hover {
+    text-decoration: underline;
   }
   .donations-tile {
     display: flex;
