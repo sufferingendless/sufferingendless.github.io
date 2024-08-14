@@ -384,12 +384,16 @@ a:active {
     justify-content: center;
     background-repeat: repeat;
   }
+  .book-title {
+    font-size: 25vw;
+  }
   .book-link {
     cursor: pointer;
     display: flex;
     justify-content: center;
     color: white;
     background-color: rgba(255, 0, 0, 0.4);
+    font-size: 14vw;
   }
   .donations-tile {
     display: flex;
@@ -397,12 +401,12 @@ a:active {
     align-items: center;
   }
   .donations-text {
-    font-size: 3vw;
+    font-size: 4.5vw;
     width: 75%;
   }
   .about-mobile-text {
     text-align: center;
-    font-size: 3vw;
+    font-size: 5vw;
   }
   .donations-cta {
     width: 100%;
@@ -442,5 +446,12 @@ a:active {
   }
   .button {
     font-size: 3vw;
+  }
+  .text-link {
+    font-size: 5vw;
+  }
+  .text-contact {
+    font-size: 4.5vw;
+    flex-direction: column;
   }
 }
