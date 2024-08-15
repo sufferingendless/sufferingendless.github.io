@@ -31,7 +31,7 @@ a:active {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100vw;
   width: 100vw;
   position: relative;
 }
@@ -94,9 +94,8 @@ details summary {
 .footer {
   display: flex;
   justify-content: center;
-  position: fixed;
-  bottom: 3%;
   width: 100%;
+  margin-top: 3vw;
 }
 .button {
   background: none;
