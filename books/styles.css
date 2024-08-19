@@ -167,6 +167,11 @@ details summary {
     transform: translateY(0%);
   }
 }
+
+.responsive {
+  font-size: 1.5vw;
+}
+
 @media only screen and (min-width: 2000px) {
   .modal-content {
     margin: 5% auto;
