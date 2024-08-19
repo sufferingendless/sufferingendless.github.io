@@ -12,6 +12,11 @@ body {
   width: 100%;
   font-family: "Hanken Grotesk", sans-serif;
 }
+.paypal-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
 
 .mobile {
   display: none !important;
@@ -258,7 +263,7 @@ a:active {
 }
 .colab-cta {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 1vw;
 }
@@ -303,7 +308,14 @@ a:active {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .colab-btn {
+    font-size: 4vw;
+  }
+  .donations-cta {
+    width: 100%;
+  }
   .nav-bar {
+    justify-content: space-around;
     font-size: 1.5vw;
   }
 
@@ -311,6 +323,10 @@ a:active {
     height: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .text-contact {
+    flex-direction: column;
+    font-size: 2vw;
   }
   .about {
     display: flex;
@@ -323,12 +339,43 @@ a:active {
     z-index: -1;
     margin-top: -150px;
   }
+  .nav-bar {
+    font-size: 2vw;
+  }
   .book-tile {
     z-index: 0;
     background-repeat: repeat;
   }
+  .book {
+    flex-direction: column;
+  }
+  .book-link {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.4);
+    font-size: 5vw;
+  }
   marquee {
     display: none;
+  }
+
+  .button {
+    font-size: 2.5vw;
+  }
+  .modal-list li {
+    font-size: 2vw;
+  }
+
+  .nav {
+    font-size: 5vw;
+  }
+  .modal-title {
+    font-size: 3vw;
+  }
+  .close {
+    font-size: 3vw;
   }
 }
 

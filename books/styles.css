@@ -155,7 +155,7 @@ details summary {
 }
 .colab-cta {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 1vw;
 }
@@ -185,7 +185,6 @@ details summary {
     height: 100vh;
     width: 100vw;
     position: relative;
-    overflow: hidden;
   }
   .accordion-grid {
     align-items: center;
@@ -195,7 +194,7 @@ details summary {
   }
   .accordion-text {
     text-align: justify;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .accordion-element {
     width: 75%;
@@ -258,7 +257,7 @@ details summary {
   }
   .accordion-text {
     text-align: justify;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
   .accordion-element {
     width: 75%;
@@ -273,7 +272,10 @@ details summary {
     font-size: 2vw;
   }
   .button {
-    font-size: 2vw;
+    font-size: 5vw;
+  }
+  .responsive {
+    font-size: 2.5vw;
   }
   .modal-list li {
     font-size: 2vw;
