@@ -272,7 +272,6 @@ details summary {
     height: 100vh;
     width: 100vw;
     position: relative;
-    overflow: hidden;
   }
   .accordion-grid {
     align-items: center;
@@ -282,7 +281,7 @@ details summary {
   }
   .accordion-text {
     text-align: justify;
-    font-size: 2.5vw;
+    font-size: 1.75vw;
   }
   .accordion-element {
     width: 75%;
