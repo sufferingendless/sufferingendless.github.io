@@ -273,6 +273,9 @@ details summary {
     width: 100vw;
     position: relative;
   }
+  .modal {
+    overflow: scroll;
+  }
   .accordion-grid {
     align-items: center;
     justify-content: center;
