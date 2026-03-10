@@ -1,0 +1,22 @@
+---
+layout: base
+title: Ensaios
+---
+<div class="ensaios-wrapper">
+  <div class="section-title ensaios-title">Ensaios</div>
+
+  <div class="ensaios-list">
+    {% assign ensaios_sorted = site.ensaios | sort: 'date' | reverse %}
+    {% if ensaios_sorted.size == 0 %}
+      <p class="ensaios-empty">Nenhum ensaio publicado ainda.</p>
+    {% else %}
+      {% for ensaio in ensaios_sorted %}
+      <a href="{{ ensaio.url | relative_url }}" class="ensaio-item">
+        <span class="ensaio-date">{{ ensaio.date | date: "%d/%m/%Y" }}</span>
+        <span class="ensaio-name">{{ ensaio.title }}</span>
+      </a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+<a href="{{ '/' | relative_url }}" class="back-link hide-on-mobile">← voltar</a>

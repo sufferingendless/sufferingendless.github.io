@@ -1,0 +1,15 @@
+title: Maced-nia
+url: "https://sufferingendless.github.io"
+baseurl: ""
+
+collections:
+  ensaios:
+    output: true
+    permalink: /ensaios/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: ensaios
+    values:
+      layout: essay

@@ -1,0 +1,545 @@
+@font-face {
+  font-family: "as-kee-r0";
+  src: url("./resources/as-kee-r0.ttf");
+}
+html,
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.paypal-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.mobile {
+  display: none !important;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.book-external:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: underline solid red 5px;
+}
+.book-external {
+  color: red;
+  font-style: italic;
+}
+.book-external:visited {
+  color: red;
+}
+
+.colab-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.colab-cta a {
+  margin-top: 10px;
+}
+.colab-with-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+marquee {
+  padding: 0.5vw 0 0.5vw 0;
+  height: 1vw;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  color: black;
+  width: 100%;
+  animation: marquee 10s linear infinite;
+  z-index: 1000;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  padding-bottom: 0.75vw;
+  padding-right: 0.75vw;
+  width: 100%;
+  z-index: 1000;
+  font-size: 1vw;
+}
+.svg-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding: 1vw 1vw 0 0;
+  flex-direction: row;
+}
+.nav-element {
+  padding: 1vw 1vw 0 0;
+}
+.nav-element:hover {
+  text-decoration: underline;
+}
+.section-title {
+  font-size: 10vw;
+  font-family: "as-kee-r0";
+  padding: 5vw 0 0.25vw 0;
+  display: flex;
+  justify-content: center;
+}
+.splash {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.burning-house {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 75%;
+}
+.text {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.donations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gambi {
+  display: flex;
+  flex-direction: column;
+}
+.tile {
+  height: 100%;
+  width: 100%;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.sea-dragons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.book-tile {
+  width: 100%;
+  height: 100%;
+  background-image: url("./resources/maousoleum.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: red;
+}
+.book-section {
+  color: red;
+}
+.book {
+  font-size: 17vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-link {
+  font-size: 4vw;
+}
+.text-link {
+  font-style: italic;
+}
+.text-link:hover {
+  text-decoration: underline;
+}
+.donations-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donations-text {
+  padding-top: 3vw;
+  text-align: center;
+}
+.donations-cta {
+  display: flex;
+  font-size: 1.5vw;
+  justify-content: space-around;
+  width: 25%;
+}
+.suffering {
+  position: relative;
+  text-align: center;
+}
+.sofrimento {
+  position: absolute;
+  color: yellow;
+  font-size: 10vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.destroyer {
+  z-index: 998;
+}
+.button {
+  background: none;
+  border: none;
+  padding: 0.5vw;
+  margin: 0;
+  color: inherit;
+  font-size: 1.5vw;
+  cursor: pointer;
+  font-style: italic;
+  font-family: inherit;
+  border: 1px solid white;
+}
+.button:hover {
+  color: black;
+  background-color: white;
+}
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 1001;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  margin: 15% auto;
+  background-color: #000;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+.modal-title {
+  font-size: 1.25vw;
+  padding-left: 25px;
+}
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.close {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5vw;
+}
+.modal-list li {
+  padding: 16px;
+  font-size: 1vw;
+}
+.colab-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vw;
+}
+.text-contact {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 5vw;
+  justify-content: space-around;
+  padding-bottom: 5vw;
+  align-items: center;
+  font-size: 1vw;
+}
+@media only screen and (min-width: 2000px) {
+  .splash {
+    background-position-y: -650px;
+  }
+  .section-title {
+    padding: 3vw 0 0.25vw 0;
+    font-size: 7vw;
+  }
+  .sea-dragons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+  }
+  .book-link {
+    font-size: 3vw;
+  }
+  .nav-bar {
+    font-size: 0.75vw;
+  }
+  .book-tile {
+    z-index: 0;
+  }
+
+  .modal-content {
+    margin: 5% auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1250px) {
+  .svg-wrapper {
+    display: none;
+  }
+  .colab-btn {
+    font-size: 4vw;
+  }
+  .donations-cta {
+    width: 100%;
+  }
+  .nav-bar {
+    justify-content: space-around;
+    font-size: 1.5vw;
+  }
+
+  .tile-about {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-contact {
+    flex-direction: column;
+    font-size: 2vw;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .sea-dragons-img {
+    z-index: -1;
+    margin-top: -150px;
+  }
+  .nav-bar {
+    font-size: 2vw;
+  }
+  .book-tile {
+    z-index: 0;
+    background-repeat: repeat;
+  }
+  .book {
+    flex-direction: column;
+  }
+  .book-link {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.4);
+    font-size: 5vw;
+  }
+  marquee {
+    display: none;
+  }
+
+  .modal-list li {
+    font-size: 2vw;
+  }
+
+  .nav {
+    font-size: 5vw;
+  }
+  .modal-title {
+    font-size: 3vw;
+  }
+  .close {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .colab-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .colab-cta a {
+    margin-top: 10px;
+  }
+  .mobile {
+    display: block !important;
+  }
+  .burning-house {
+    object-position: 50% 0%;
+  }
+  .hide-on-mobile {
+    display: none !important;
+  }
+  .front-banner {
+    width: 100%;
+    height: 100%;
+  }
+  .section-title {
+    display: none !important;
+  }
+  .circular-nav {
+    color: black;
+    position: absolute;
+    top: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10vw;
+  }
+  .title {
+    font-size: 15vw;
+    position: absolute;
+    top: 0;
+    left: 10%;
+  }
+  .cropped-sea-dragons-mobile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .nav-mobile {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .highlight {
+    color: greenyellow;
+  }
+  .book-tile {
+    display: flex;
+    justify-content: center;
+    background-repeat: repeat;
+  }
+  .book-title {
+    font-size: 25vw;
+  }
+  .book-link {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.4);
+    font-size: 14vw;
+  }
+  .book-link:hover {
+    text-decoration: underline;
+  }
+  .donations-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .donations-text {
+    font-size: 4.5vw;
+    width: 75%;
+  }
+  .about-mobile-text {
+    text-align: center;
+    font-size: 5vw;
+  }
+  .donations-cta {
+    width: 100%;
+    font-size: 3vw;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .orchid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .book {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .modal-title {
+    font-size: 3vw;
+  }
+  .close {
+    font-size: 3vw;
+  }
+  ul {
+    padding-left: 0;
+  }
+
+  .modal-list li {
+    list-style: none;
+    font-size: 3vw;
+    text-align: center;
+  }
+  .modal-content {
+    padding: 5px;
+    width: 75%;
+  }
+  .button {
+    font-size: 3vw;
+  }
+  .text-link {
+    font-size: 5vw;
+  }
+  .text-contact {
+    font-size: 4.5vw;
+    flex-direction: column;
+  }
+  .colab-with-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

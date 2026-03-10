@@ -1,0 +1,61 @@
+---
+title: "ASMR casas horríveis e financeirização"
+date: 2026-03-10
+---
+
+> "Era uma manhã fria e ventosa em Astana, nova capital futurista do Cazaquistão. Depois de atravessar uma espécie de platô onde fulguram objetos brilhantes de arquitetos de grife, finalmente chegamos ao barracão onde se encontravam os grevistas de fome. Deitados em macas em um salão recoberto de cartazes escritos em cazaque e em russo, idosos de aparência oriental misturavam-se a senhoras brancas de cabelos vermelhos e casais de meia-idade, revezando-se nas camas e cadeiras do local. Eram todos vítimas de construtoras que, apesar de terem recebido religiosamente as prestações dos apartamentos que os compradores haviam adquirido "na planta", faliram e desapareceram, deixando os esqueletos dos edifícios inacabados e as famílias sem casa nem dinheiro" (Rolnik 2017, pg. 6)
+
+É assim que Raquel Rolnik inicia seu livro Guerra dos lugares: A colonização da terra e da moradia na era das finanças.
+
+O episódio de hoje é sobre uma coisa que tem me fascinado nos últimos dias: tour de casa de rico. Eu gosto muito de ASMR e acabei caindo num canal de uma mulher que não é necessariamente de ASMR e que se chama Mônica Plopawski. E eu gosto muito do jeito que ela fala, me relaxa bastante, e ela faz vídeos apresentando apartamentos e casas de
+luxo na região de Alphaville, Morumbi e outros bairros nobres de São Paulo.
+
+Todos os imóveis que ela mostra carregam uma opulência, que expõem o absurdo da riqueza. Primeiro que, essas casas são todas horrorosas: elas tem formato de farmácia São João, para quem não conhece, é uma rede de farmácias aqui do sul em formato de caixote que aparecem do dia pra noite geralmente tomando um espaço previamente ocupado por uma edificação histórica demolida. A escolha de móveis nas casas que Monica mostra é brega. De todas as casas que eu vi, teve uma apenas, que eu achei bonita, que é a casa Passarela, feita por um arquiteto coreano premiado. Mas mesmo a casa Passarela não escapa do absurdo.
+
+Qual é o sentido de ter uma casa de 80 milhões? Uma casa de mil metros construídos, onde geralmente mora uma família de quatro integrantes? Uma casa que depende de outras pessoas pra ser mantida? Uma casa que te transforma em uma mera torneirinha de dinheiro, um refém do próprio luxo? Isso porque quem mantém a tua casa são teus funcionários, que vivem para te servir. Pelo menos na tua cabeça. Todas as casas têm quartos de empregados com cama, eles têm que morar ali, é uma servitude plena? O cara tem que ter um jardineiro todo dia. Sem falar as casas que tem umas gimmicks. Por exemplo, uma quadra de beach tenis.
+
+Quanto custa uma manutenção de uma quadra de beach tennis? Quanto que custa a manutenção de uma pista de boliche integrada, de um cinema, enfim, todas essas coisas vão se somando e a tua casa vira uma drenagem de dinheiro. Sem falar nas grandes paredes envidraçadas que transformam a casa em uma verdadeira estufa dependente de ar condicionado.
+
+Então, qual que é o objetivo de ter uma casa dessa se não demonstrar aos outros que tu é melhor do que eles? Qual a consequência dessas casas se não explicitar o nosso sistema de castas brasileiro. No qual pessoas moram em palacetes, em condomínios fechados, em alphaville?
+
+No sentido histórico, esse isolamento é um aprendizado cultural da elite. Antigamente os palácios e as grandes casas opulentas eram no centro da cidade. É muito fácil tu imaginar uma revolução russa ou francesa. Imagina passar fome e ter um palácio absurdo no meio da cidade. Tu olha aquela, porra de Versalhes, coberto em ouro: a síntese do ódio da massa pronto para ser canalizado.
+
+Voltando aos nossos novos ricos brasileiros bregas, com gostos horrorosos, porque pelo menos em Versalhes e Moscou existia o apreço aristocrático pela cultura. Hoje em dia tu vê o cara fazendo vídeo anti-intelectual, falando mal da faculdade pública, enquanto seus filhos estudam na USP, na FAPP ou em Londres. Os nossos ricos são podres e decadentes. Hoje em dia os caras financiam, Gusttavo Lima e arquitetura Greco-Goiana.
+
+E para essa galera, quem vive no centro pertence à classe dos intocáveis e dos abjetos. Em contrapartida aos palacetes de alphaville, nem os bairros "nobres" da cidade  de São Paulo, como a Vila Madalena por exemplo, não conseguem escapar da financeirização e da verticalização. Novos prédios imensos com pequenos apartamentos para especulação e Airbnb suplantam casas familiares que carregaram gerações de paulistanos e suas histórias.
+
+As construtoras, como criaturas famintas, se projetam através do dinheiro, pagando caro aos primeiros dispostos a vender e, em  seguida, coercendo os que resistiram aos primeiros avanços. Deglutindo associações de moradores. Tem até um vídeo já antigo da Nátaly Neri em que ela descreve como é desagradável morar em uma casa ao lado de grandes prédios, como um tubo de shampoo atirado de um prédio, travou a calha dela e alagou a casa na chuva. E a prefeitura é complacente com as grandes construtoras através do novo plano diretor e pelo papo de centro estendido.
+
+Em Porto Alegre, um dos pontos da orla do guaíba que era sítio arqueológico de ossadas dos povos originários da região se tornou um  shopping. Aqui os locais já se referem a cidade como Melnicstão em alusão à uma das construtoras beneficiadas pela gestão atual.
+
+Com isso, os donos essas empreiteiras, cada vez mais ricos, financiados em parte por dinheiro público, provavelmente são os que moram nas casas de mil metros quadrados.
+O mesmo cara que te considera um animal, constrói um cercadinho de 20m² especial pra ti alugar pela vida inteira ou financiar pelo triplo do valor do imóvel.
+
+Só que os caras, eles conseguiram, né? Da mesma forma que os veículos, como o rádio, o impresso, eles foram muito bem utilizados pela esquerda do Século XIX, século XX, hoje em dia a gente tem a internet, só que ela pertence claramente aos ricos: é a ferramenta da
+direita e não é uma direita qualquer, ela é uma tecnocrática e aceleracionista. Ou seja, não apenas se prepara pro fim do mundo, ela anseia o fim do mundo, e clama pelo fim do mundo. E nesse futuro o que sobra para nos trabalhadores é uma escolha: servitude plena e suas migalhas nos palacetes ou se degladiar por restos nos grandes centros urbanos enquanto as mansões se tornam abrigos nucleares, espaçonaves e carros blindados...
+
+Um dos pontos que Miltom Santos discute na natureza do espaço é que existe uma relação
+iterativa entre o sujeito e o espaço, o sujeito através da técnica modifica o espaço para melhor se adaptar a ele, e em seguida um novo sujeito é formado dentro do espaço.
+
+> "Segundo C. Reboratti (1993, p.17) "a paisagem humana é uma combinação de vários tempos presentes". Na verdade, paisagem e espaço são sempre uma espécie de palimpsesto onde, mediante acumulações e substituições, a ação das diferentes gerações se superpõe. O espaço constitui a matriz sobre a qual as novas ações substituem as ações passadas. É ele, portanto, presente, porque passado e futuro" Santos (2006, p.67).
+
+Um parentesis, palimpsesto é uma palavra muito foda tá. Significa um papiro que foi escrito e em seguida sobrescrito, que é uma forma muito menos tecnocrática de se referir ao processo do que iterativo.
+
+É natural então que na sociedade segregada, povoada pela cerca elétrica, pelo vigia armado e pelo casebre se perpetue. A violência simbólica do muro alto que isola um condomínio fechado da comunidade de trabalhadores que o supre e mantém funcionando.
+
+Essa violência e suas consequências são sintetizadas perfeitamente pela música Alcatraz de Facção Central, em que Eduardo Tadeu, talvez um dos maiores poetas brasileiros, sobrepõem a perspectiva das pessoas que nascem criadas dentro dos murros pelas que moram fora:
+
+> Sonho com a carta de alforria da minha Alcatraz de ouro
+> Com a paz sem vigia, nem muro de tijolo
+> [...]
+> Sonho com a carta de alforria da minha Alcatraz de compensado
+> Com a paz sem revólver, nem refém torturado
+
+Dito isso, voltemos ao trabalho da senhorita Mônica, o fio condutor desse raciocínio. Apesar da excelente  qualidade técnica dos vídeos, relativo bom gosto para roupas e do papo de vendedora que às vezes me deixa com vontade de ter minha mansão em Alphaville, eu imagino que a casa dela deva ser bem brega também. Para dizer isso me baseio na abaixadinha de cabeça no drop da música de abertura e nos elogios sobre a decoração
+em geral. Um exemplo seria a vez que ela elogia um opulento terço (sim, o de rezar) de pedra sobre uma bancada em uma casa porteira fechada.
+
+Na minha cabeça a casa de Mônica é uma amálgama de todas as qualidades que eu considero as piores das casas que ela apresenta, para mim Mônica se tornou mais do que uma corretora de imóveis, ela é uma espécie de Virgílio que me apresenta os sete círculos interiores de Alphaville. Tem uma frase dela que eu acho perfeita para explicitar o ridículo do luxo: "eu tenho que justificar o valor dessa casa para vocês", essa fala geralmente é dita após apresentar um rodapé, um móvel caro ou uma sala imensa povoada por mobília esparsa que remete muito mais a um shopping do que a uma moradia. Ela também nunca usa a palavra mansão, sempre "casa" para evocar uma familiaridade talvez, ou se aproveitar da crença dos ricos que não se consideram ricos no Brasil.
+
+Como eu mencionei antes, vários sinais religiosos são espalhados em casas de porteira fechada, pinturas abstratas com nomes de passagem bíblicas, terços opulentos de pedra. O que leva a crer que as elites tem lá suas preferências protestantes do capitalismo e sempre marcam presença nas igrejas como Lagoinha ao lado de Daniel Vorcaro e outros ilustríssimos.
+
+Bom esse assunto é um buraco, eu posso abordar melhor, talvez eu não consiga me controlar e lance um vídeo em  breve, mas por hora vamos concluir com  mais uma frase icônica da maestra: "o luxo mora nos detalhes". Essa frase é real, contudo não do jeito que Mônica usa ela, o luxo não é o acabamento, o luxo no Brasil é ir no mercado e não precisar escolher. Levar os filhos no shopping e só dizer não por razões pedagógicas e não financeiras. É passear nos finais de semana, tirar férias.
