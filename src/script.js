@@ -15,6 +15,7 @@ function openModal() {
 }
 
 function closeModal() {
+	console.log('repost')
 	document.body.classList.remove('no-scroll'); 
 	let modal = document.getElementById('downloadModal')
 	modal.style.display = 'none'
